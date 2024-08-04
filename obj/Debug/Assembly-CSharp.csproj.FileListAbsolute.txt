@@ -1,0 +1,2 @@
+/Users/jessicaarmitage/CPUCity/obj/Debug/Assembly-CSharp.csproj.AssemblyReference.cache
+/Users/jessicaarmitage/CPUCity/obj/Debug/Assembly-CSharp.csproj.CoreCompileInputs.cache

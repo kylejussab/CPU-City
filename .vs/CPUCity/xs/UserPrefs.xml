@@ -1,0 +1,19 @@
+﻿<Properties StartupConfiguration="{00F99886-E9FC-DAEA-64A3-CF005187FDC2}|Unit Tests">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Dialogue/DialogueManager.cs">
+    <Files>
+      <File FileName="Assets/Scripts/Interaction/PlayerInteract.cs" />
+      <File FileName="Assets/Scripts/Interaction/NPCInteractable.cs" Line="11" Column="25" />
+      <File FileName="Assets/Scripts/Interaction/PlayerInteractUI.cs" Line="27" Column="70" />
+      <File FileName="Assets/Scripts/Dialogue/DialogueManager.cs" Line="22" Column="1" />
+      <File FileName="Assets/Scripts/Dialogue/Dialogue.cs" Line="13" Column="1" />
+      <File FileName="Assets/Scripts/Dialogue/DialogueTrigger.cs" Line="11" Column="69" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="MonoDevelop.Default" />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
