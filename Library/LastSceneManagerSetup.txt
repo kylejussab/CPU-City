@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Scenes/CityMinions.unity
+- path: Assets/Scenes/ExtendedCity.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
