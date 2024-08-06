@@ -1,0 +1,14 @@
+﻿<Properties StartupConfiguration="{B9F7729B-D2BC-B096-6C71-0948A0C30EDF}|Unit Tests">
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/PlayerFootsteps.cs">
+    <Files>
+      <File FileName="Assets/Scripts/PlayerFootsteps.cs" Line="34" Column="18" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+</Properties>
