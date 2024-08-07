@@ -156,11 +156,6 @@
      <Compile Include="Assets\Scripts\Dialogue\Dialogue.cs" />
      <Compile Include="Assets\Scripts\Dialogue\DialogueManager.cs" />
      <Compile Include="Assets\Scripts\Dialogue\DialogueTrigger.cs" />
-     <Compile Include="Assets\Scripts\FSM\BaseState.cs" />
-     <Compile Include="Assets\Scripts\FSM\ChaseState.cs" />
-     <Compile Include="Assets\Scripts\FSM\NpcFSM.cs" />
-     <Compile Include="Assets\Scripts\FSM\PatrolState.cs" />
-     <Compile Include="Assets\Scripts\FSM\PlayerMovement.cs" />
      <Compile Include="Assets\Scripts\IdleBehaviour.cs" />
      <Compile Include="Assets\Scripts\IdleBehaviourEdit.cs" />
      <Compile Include="Assets\Scripts\Interaction\NPCInteractable.cs" />
@@ -169,7 +164,13 @@
      <Compile Include="Assets\Scripts\MinionAttack.cs" />
      <Compile Include="Assets\Scripts\MinionHit.cs" />
      <Compile Include="Assets\Scripts\Minions.cs" />
+     <Compile Include="Assets\Scripts\NPCFootsteps.cs" />
      <Compile Include="Assets\Scripts\NPCMovement.cs" />
+     <Compile Include="Assets\Scripts\NPC_FSM\BaseState.cs" />
+     <Compile Include="Assets\Scripts\NPC_FSM\ChaseState.cs" />
+     <Compile Include="Assets\Scripts\NPC_FSM\NpcFSM.cs" />
+     <Compile Include="Assets\Scripts\NPC_FSM\PatrolState.cs" />
+     <Compile Include="Assets\Scripts\NPC_FSM\PlayerMovement.cs" />
      <Compile Include="Assets\Scripts\OneWheelMovement.cs" />
      <Compile Include="Assets\Scripts\PlayerFootsteps.cs" />
      <Compile Include="Assets\Scripts\ThirdPersonAnimation.cs" />
