@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.InputSystem;
 
 
 public class PlayerFootsteps : MonoBehaviour
@@ -24,11 +25,17 @@ public class PlayerFootsteps : MonoBehaviour
 
     private void PlayFootsteps()   
     {
-        int randomIndex = Random.Range(0, streetStepsWalk.Length);
-        AudioClip randomClip = streetStepsWalk[randomIndex];
+        if (Input.anyKey)
+        //Input.GetKey(KeyCode.UpArrow) || Input.GetKey(KeyCode.DownArrow)
+        {
+            int randomIndex = Random.Range(0, streetStepsWalk.Length);
+            AudioClip randomClip = streetStepsWalk[randomIndex];
 
-        footstepPlayer.clip = randomClip;
-        footstepPlayer.Play();
+            footstepPlayer.clip = randomClip;
+            footstepPlayer.Play();
+            Debug.Log(randomClip.name);
+        }
+        
     }
 
     private void PlayRunningFootsteps()
