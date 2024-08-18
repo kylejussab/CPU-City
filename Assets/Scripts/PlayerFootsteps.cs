@@ -28,7 +28,7 @@ public class PlayerFootsteps : MonoBehaviour
         if (Input.anyKey)
         //Input.GetKey(KeyCode.UpArrow) || Input.GetKey(KeyCode.DownArrow)
         {
-            int randomIndex = Random.Range(0, streetStepsWalk.Length);
+            int randomIndex = Random.Range(0, streetStepsWalk.Length-1);
             AudioClip randomClip = streetStepsWalk[randomIndex];
 
             footstepPlayer.clip = randomClip;
@@ -40,7 +40,7 @@ public class PlayerFootsteps : MonoBehaviour
 
     private void PlayRunningFootsteps()
     {
-        int randomRunIndex = Random.Range(0, streetStepsRun.Length);
+        int randomRunIndex = Random.Range(0, streetStepsRun.Length-1);
         AudioClip randomRunClip = streetStepsRun[randomRunIndex];
 
         footstepPlayer.clip = randomRunClip;
